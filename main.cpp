@@ -35,6 +35,8 @@ int main()
     }
     
     // print tablicy
+    while(true)
+    {
     for(int i = 0; i < r; i++)
     {
         for(int j = 0; j < c; j++){
@@ -58,5 +60,5 @@ int main()
     cin >> move;
     if(move == 'w' || move == 'W')
         rmove++;
-
+    }
 }
